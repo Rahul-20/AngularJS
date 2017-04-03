@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="event">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Event Application</title>
+<base href="/" />
+
+<link rel="stylesheet" href="Event/content/css/bootstrap.min.css" />
+<link rel="stylesheet" href="Event/content/css/LoginHeader.css" />
+<link rel="stylesheet" href="Event/content/css/Login.css" />
+
+
+<script src="Event/lib/jquery-1.12.3.min.js"></script>
+<script src="Event/lib/angular.min.js"></script>
+<script src="Event/lib/angular-ui-router.min.js"></script>
+<script src="Event/lib/bootstrap.min.js"></script>
+
+<script src="Event/config/app.js"></script>
+<script src="Event/config/eventconfig.js"></script>
+
+</head>
+<body>
+	<div ng-controller="eventController" class="main-wrapper">
+		<div ui-view="header" class="main-header"></div>
+		<div ui-view class="content-wrapper"></div>
+	</div>
+</body>
+</html>
