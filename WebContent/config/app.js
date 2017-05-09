@@ -1,4 +1,4 @@
-var eventApp=angular.module("event",["ui.router"]);
+var eventApp=angular.module("event",['ui.router','LoginModule','loginService']);
 
 eventApp.controller("eventController", function($scope, $rootScope, $state){
 	alert('Entereeeeeeeeeeeeeddddddddd into ceventController');
@@ -17,7 +17,7 @@ eventApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 			
 			"@": {
 				templateUrl: appPath + "/Modules/Login/Login.tpl.html",
-				controller: ""
+				controller: "LoginController"
 			}
 		}		 
 	})

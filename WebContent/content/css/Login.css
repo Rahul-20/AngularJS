@@ -1,21 +1,21 @@
-*, *:before, *:after {
+/* *, *:before, *:after {
 	box-sizing: border-box;
 }
 
-/* html {
+html {
   overflow-y: auto;
-}*/
+}
 body {
-	/* background: #008080;
-	background-image: url("/Event/content/themes/12.jpg"); */
+	background: #008080;
+	background-image: url("/Event/content/themes/12.jpg");
 	font-family: 'Titillium Web', sans-serif;
 }
 
 .login{
-	 /* padding-right: 15px; */
-    /* padding-left: 15px; */
-    /* margin-right: auto; */
-    /* margin-left: auto; */
+	 padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a {
@@ -31,9 +31,9 @@ a:hover {
 
 .form {
 	background: rgba(19, 35, 47, 0.9);
-	/* padding: 40px; */
-	/* max-width: 600px; */
-	/* margin: 40px auto; */
+	padding: 40px;
+	max-width: 600px;
+	margin: 40px auto;
 	border-radius: 4px;
 	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
@@ -229,12 +229,12 @@ a {
 
 }
 .form {
-	/*   background:rgba($form-bg,.9);
+	  background:rgba($form-bg,.9);
   padding: 40px;
   max-width:600px;
   margin:40px auto;
   border-radius:$br;
-  box-shadow:0 4px 10px 4px rgba($form-bg,.3); */
+  box-shadow:0 4px 10px 4px rgba($form-bg,.3);
 	background: rgba($ form-bg, .9);
 	padding-top: 6%; padding-right : 6%; padding-bottom : 6%; padding-left: 6%;
 	max-width: 50%;
@@ -404,4 +404,53 @@ div {
 .forgot {
 	margin-top: -20px;
 	text-align: right;
+} */
+
+
+
+
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+.container {
+    padding: 25px;
+    position: fixed;
+}
+
+.form-login {
+   /*  background-color: #EDEDED; */
+    padding-top: 95%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
 }

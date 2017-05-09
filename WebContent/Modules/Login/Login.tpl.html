@@ -1,4 +1,4 @@
-<div class="container-fluid login" style="background-image: url(/Event/content/themes/IMG_264234_2.jpg">
+<!-- <div class="container-fluid login" style="background-image: url(/Event/content/themes/IMG_264234_2.jpg">
 
 <div class="form">
 
@@ -48,24 +48,46 @@
 			<form action="login" method="post">
 				<div class="field-wrap">
 					<label> Email Address<span class="req">*</span>
-					</label> <input type="email" required autocomplete="off" />
+					</label> <input type="email" required autocomplete="off" ng-model="login.userName"/>
 				</div>
 				<div class="field-wrap">
 					<label> Password<span class="req">*</span>
-					</label> <input type="password" required autocomplete="off" />
+					</label> <input type="password" required autocomplete="off" ng-model="login.password"/>
 				</div>
 				<p class="forgot">
 					<a href="#">Forgot Password?</a>
 				</p>
-				<button class="button button-block" />
+				<button class="button button-block" ng-click=createUserInfo()/>
 				Log In
 				</button>
 			</form>
 		</div>
 
 	</div>
-	<!-- tab-content -->
+	tab-content
 
 </div>
-<!-- /form -->
+/form
+</div> -->
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-3">
+            <div class="form-login">
+            <h4>Sign Up!!!</h4>
+            <input type="text" class="form-control input-sm chat-input" placeholder="username" ng-model="login.UserName" />
+            </br>
+            <input type="text" class="form-control input-sm chat-input" placeholder="password" ng-model="login.Password" />
+            </br>
+            <div class="wrapper">
+            <span class="group-btn">     
+                <button class="btn btn-primary btn-md" ng-click=createUserInfo(login)>Login</button>
+            </span>
+            </div>
+            </div>
+        
+        </div>
+    </div>
 </div>
