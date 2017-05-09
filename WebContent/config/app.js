@@ -1,7 +1,7 @@
 var eventApp=angular.module("event",['ui.router','LoginModule','loginService']);
 
 eventApp.controller("eventController", function($scope, $rootScope, $state){
-	alert('Entereeeeeeeeeeeeeddddddddd into ceventController');
+	alert('Entereeeeeeeeeeeeeddddddddd into eventController');
 });
 
 eventApp.constant("URL",{});
